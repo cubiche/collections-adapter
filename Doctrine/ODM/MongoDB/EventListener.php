@@ -8,11 +8,11 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Cubiche\Infrastructure\Collections\Persistence\Doctrine\ODM\MongoDB;
+namespace Cubiche\Infrastructure\Collections\Doctrine\ODM\MongoDB;
 
 use Cubiche\Domain\Collections\CollectionInterface;
-use Cubiche\Infrastructure\Collections\Persistence\Doctrine\Common\Collections\PersistentArrayCollection;
-use Cubiche\Infrastructure\Collections\Persistence\Doctrine\ODM\MongoDB\Types\ArrayCollectionType;
+use Cubiche\Infrastructure\Collections\Doctrine\Common\Collections\PersistentArrayCollection;
+use Cubiche\Infrastructure\Collections\Doctrine\ODM\MongoDB\Types\ArrayCollectionType;
 use Doctrine\Common\Collections\ArrayCollection as DoctrineArrayCollection;
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Event\LifecycleEventArgs;
